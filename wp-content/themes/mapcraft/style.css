@@ -1,0 +1,228 @@
+/*
+Theme Name: Mapcraft
+Theme URI: http://mapcraft.org
+Description: The WordPress theme for Mapcraft.
+Version: 0.1
+Author: Jeffrey Warren
+Author URI: http://mapcraft.org/
+*/
+
+html {
+	font-family: georgia, times, serif;
+	background:#ccc url('/wp-content/themes/mapcraft/images/grass-2.jpg');
+}
+
+body {
+	margin: 16px auto;
+	width:900px;
+	font-size: 0.9em; 
+	text-decoration: none; 
+	font-weight: normal; 
+	color: #222;
+	padding:14px;
+	background:#fff;
+	-webkit-box-shadow:0 0 26px rgba(0,0,0,0.4);
+	-moz-opacity: 0.95;
+	opacity:.95;
+	filter:alpha(opacity=95)
+}
+
+h1 {
+	letter-spacing:-1px;
+	font-weight:normal;
+	font-size:3.8em;
+	margin-top:6px;
+	margin-bottom:6px;
+	font-style:italic;
+/*	font-family:helvetica, arial, sans-serif;*/
+}
+h2 {
+	font-family:georgia;
+	font-size:2.9em;
+	font-weight:normal;
+	color:#222;
+	letter-spacing:-1px;
+	line-height:1em;
+	margin:3px 0;
+}
+h3 {
+	margin:2px 0;
+}
+
+#content h3 {
+	font-size:1.9em;
+	font-style:italic;
+	font-weight:normal;
+}
+
+img {
+	border:0;
+}
+
+a {
+	color: #6DBF35;
+}
+a:hover {
+	color: #569149;
+}
+
+em {
+	display:block;
+	padding:10px 10px;
+	margin:10px;
+	border-left:4px solid #FDB;
+	font-style:italic;
+	background:#FFEEC6;
+}
+th {
+	border-bottom:2px solid #555;
+}
+blockquote {
+	padding:1px 10px;
+	margin:10px;
+	border-left:4px solid #555;
+	font-style:italic;
+	background:#f3f3f3;
+}
+code,pre { 
+	padding:1px 10px;
+	margin:8px;
+	border-left:4px solid #555;
+	font-size:1.2em;
+	background:#E3E6F5;
+	padding:12px; 
+	overflow-x:scroll;
+}
+code {
+	line-height:3em;
+	padding:6px;
+}
+
+#header {
+	border-bottom:4px solid #222;
+	padding-bottom:12px;
+	margin-bottom:14px;
+}
+#header h1 a {
+	color:#222;
+	text-decoration:none;
+}
+
+#content {
+	width:640px;
+	float:left;
+}
+
+#sidebar {
+	float:left;
+	width:240px;
+}
+
+#sidebar .panel {
+	border-bottom:2px solid #444;
+	margin-bottom:14px;
+	font-family:lucida grande,lucida sans console, tahoma, sans-serif;
+	font-size:.8em;
+}
+#sidebar .panel h3 {
+	font-size:1.6em;
+}
+#sidebar .panel img {
+	margin-bottom:10px;
+}
+
+.post {
+	width:500px;
+	font-size:.8em;
+	line-height:1.4em;
+	font-family:helvetica, arial, sans-serif;
+	border-bottom:2px dotted #222;
+	padding-bottom:8px;
+	margin-bottom:8px;
+}
+.post div {
+	margin-top:6px;
+}
+.post h2 a {
+	font-size:0.8em;
+	color:#222;
+}
+.post h3 {
+	font-family:georgia;
+}
+.commentlist {
+	width:500px;
+}
+.postmetadata {
+	clear:left;
+}
+textarea#comment {
+	width:500px;
+}
+
+#crp_related h3 {
+	font-style:italic;
+	font-family:georgia;
+	font-weight:normal;
+	color:#222;
+	letter-spacing:-1px;
+	line-height:1em;
+	margin:3px 0;
+}
+
+#crp_related ul {
+	list-style:square;
+	padding-left:16px;
+	
+}
+
+.navigation.single {
+	width:500px;
+	border-top:2px dotted #222;
+	padding-top:12px;
+}
+.navigation.single .alignleft {
+/*	border-right:2px dotted #222;*/
+	margin-right:12px;
+	padding-right:12px;
+	width:235px;
+	float:left;
+}
+.navigation.single .alignright {
+	text-align:right;
+	width:235px;
+	float:left;
+}
+
+.navigation .alignleft .arrow {
+	 font-size:3.6em;
+	 float:left;
+	 padding:0 6px;
+}
+.navigation .alignright .arrow {
+	 font-size:3.6em;
+	 float:right;
+	 padding:0 6px;
+}
+
+.more-link {
+	display:block;
+	padding:10px 10px;
+	margin:10px;
+	border-left:4px solid #AFD392;
+	font-style:italic;
+	background:#D1E3BB;
+	color:#346E2A;
+}
+a.more-link :hover {
+	color:#3C4933;
+}
+.field-field-image-gallery .field-item {
+	float:left;
+	margin-right:6px;
+	margin-bottom:10px;
+}
+.post p {
+	clear:left;
+}
+
